@@ -1,0 +1,95 @@
+/*Color and fonts*/
+body { 
+	background: #F3F1F5;
+	color: #00B4D8;
+	font-family: Hubbali;
+	font-size: 17px;
+ }
+
+
+
+h1 {
+	color: #03045E ;
+	font-family: Fredoka, serif;
+	font-size: 32px;
+}
+
+h2 {
+	color: #398AB9;
+	font-family: Fredoka;
+	font-size: 24px;
+}
+
+ a { 
+ 	text-decoration: none;
+ 	color: #398AB9;
+ 	font-family: Hubbali;
+  }
+
+ a:hover { 
+ 	color : #90E0EF;
+
+ }
+
+/* Custom sign with class */
+
+.banner {
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	padding: 15px;
+	padding-top: 15px;
+	flex-basis: 250px;
+  	flex-grow: 1;
+  	margin: 10px;
+  	background-color: #FFFFFF;
+  	border-radius: 15px;
+  	padding: 15px;
+ 	display: flex;
+ 	width: 1214px;
+	height: 700px;
+}
+
+.card-white {
+	width: 700px;
+	margin: 0px;
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+.quiz-widget{
+	width: 1260px;
+  	height: 500px;
+}
+
+.container {
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  padding-left: 100px;
+}
+
+
+@media (max-width: 760px){
+	.container {
+		width:  600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.introduction {
+	color: Black;
+	background-color: white;
+}
+
+
+
